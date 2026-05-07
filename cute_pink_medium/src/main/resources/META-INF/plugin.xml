@@ -1,0 +1,20 @@
+<idea-plugin url="https://github.com/koppel/jetbrains_themes/tree/main/cute-pink-medium">
+    <name>Cute Pink Medium Theme</name>
+    <id>com.github.jkoppel.jetbrains_themes.cute_pink_medium</id>
+    <vendor url="https://github.com/koppel/">Jeremy Koppel</vendor>
+    <depends>com.intellij.modules.platform</depends>
+
+    <description>
+        A lighter version of Cute Pink Dark, balanced with medium‑contrast
+        purple so it's not too dark, but not too bright.
+    </description>
+
+    <change-notes>Initial release.</change-notes>
+    <version>0.1.0</version>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider
+                id="com.github.jkoppel.jetbrains_themes.cute_pink_medium.theme"
+                path="/cute_pink_medium.theme.json"/>
+    </extensions>
+</idea-plugin>

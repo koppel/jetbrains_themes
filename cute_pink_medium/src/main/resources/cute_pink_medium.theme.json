@@ -1,0 +1,48 @@
+{
+	"name":         "Cute Pink Medium",
+	"dark":         true,
+	"author":       "Jeremy Koppel",
+	"editorScheme": "/cute_pink_medium.xml",
+	"colors": {
+		"blackBg":            "#000000",
+		"pinkDarkBg":         "#F4B4CC",
+		"pinkDarkerBg":       "#763F56",
+		"pinkDeepBg":         "#F14874",
+		"pinkLight":          "#FCEAF1",
+		"pinkLightBg":        "#FCEAF1",
+		"pinkMediumBg":       "#FCDEE9",
+		"purpleDarkText":     "#2A035B",
+		"purpleLightText":    "#A192AB",
+		"purpleMediumText":   "#826585",
+		"purpleRedBorder":    "#F14874",
+		"purpleRedFocusRect": "#F26D90",
+		"whiteBg":            "#FFFFFF",
+		"whiteText":          "#FFFFFF"
+	},
+	"ui": {
+		"*": {
+			"background":          "pinkDarkerBg",
+			"disabledText":        "purpleLightText",
+			"errorFocusColor":     "purpleRedFocusRect",
+			"foreground":          "pinkLight",
+			"hoverBackground":     "pinkDarkBg",
+			"selectedBackground":  "pinkMediumBg",
+			"selectionBackground": "pinkDeepBg",
+			"selectionForeground": "pinkLight",
+			"underlineColor":      "purpleRedBorder"
+		},
+		"Borders": {
+			"color":               "purpleRedBorder",
+			"ContrastBorderColor": "purpleRedBorder"
+		},
+		"Button.default.foreground":    "pinkLight",
+		"Panel.foreground":             "purpleDarkText",
+		"ScrollPane.background":        "whiteBg",
+		"ScrollPane.foreground":        "purpleDarkText",
+		"TextArea.foreground":          "purpleDarkText",
+		"TextField.background":         "whiteBg",
+		"TextField.foreground":         "purpleDarkText",
+		"TextField.inactiveForeground": "purpleDarkText",
+		"Viewport.foreground":          "purpleDarkText"
+	}
+}
